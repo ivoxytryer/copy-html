@@ -5,15 +5,15 @@ ol {
     font-size:medium;
 }
 body {
-  background-color: rgb(29, 27, 27);
-  color: azure;
+  background-color: rgb(255, 255, 255);
+  
   margin: 0;
   min-height: 100vh;
 }
 
 .italic-text{
     font-style:italic;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
 }
 
 a{
@@ -57,3 +57,25 @@ a:hover{
     padding:5px;
     margin-left:10px;
 }
+
+.img-container>div{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.html-text-logo {
+    background-color: #cfe3ff;
+    height: 30px;
+    width:300px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.html-text-logo > p {
+    margin: 0; 
+    font-weight: bold; 
+    font-size: 16px;
+}
+
